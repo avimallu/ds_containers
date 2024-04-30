@@ -5,7 +5,7 @@ branches that are available - the name of the branch and the README file in that
 
 ## How do I use this?
 
-TL;DR: you can start using it simply by opening the repository folder within VSCode, and you'll get a pop-up asking if you want to work inside the container. And it'll work on almost anybody else's system (with significantly low effort).
+TL;DR: you can start using it simply by opening the repository folder within VSCode, and you'll get a pop-up asking if you want to work inside the container. And it'll work on almost anybody else's system (with significantly low effort). Find more setups in the branches of this repository.
 
 If you somehow stumbled upon this by accident, and have no idea what you're looking at, I've attempted a gist below.
 
