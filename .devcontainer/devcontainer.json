@@ -1,0 +1,23 @@
+{
+    "name": "DS devcontainer",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "base",
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "stopCompose",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+            "ms-azuretools.vscode-docker",
+            "charliermarsh.ruff",
+            "ms-toolsai.jupyter-keymap"
+          ]
+      },
+      "settings": {
+        "notebook.formatOnSave.enabled": true,
+        "[python]": {
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "charliermarsh.ruff"
+        }
+    }
+  }
+}

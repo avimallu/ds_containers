@@ -1,0 +1,12 @@
+name: ds_devcontainer
+
+services:
+  base:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: sleep infinity
+    volumes:
+      # Mounts the project folder to '/workspace'. While this file is in .devcontainer,
+      # mounts are relative to the first file in the list, which is a level up.
+      - ..:/workspace
